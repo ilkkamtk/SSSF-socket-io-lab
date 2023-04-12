@@ -6,3 +6,5 @@ interface ServerToClientEvents {
 interface ClientToServerEvents {
   update: (message: string) => void;
 }
+
+export { ServerToClientEvents, ClientToServerEvents };
