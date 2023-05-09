@@ -46,7 +46,7 @@ io.on('connection', (socket) => {
 
 app.get<{}, MessageResponse>('/', (req, res) => {
   res.json({
-    message: '🦄🌈✨👋🌎🌍🌏✨🌈🦄',
+    message: 'socket server is running',
   });
 });
 
